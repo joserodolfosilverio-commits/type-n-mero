@@ -1,5 +1,5 @@
-// tipo Number
-const meuNumero = 3;
+ // tipo Number
+const MeuNumero = 3;
 const primeiroNumero = 1;
 const segundoNumero = 2;
 const operacaoMatematica = primeiroNumero / segundoNumero;
@@ -7,5 +7,15 @@ const operacaoMatematica = primeiroNumero / segundoNumero;
 console.log(operacaoMatematica);
 
  // ponto flutuante 
+
  const numeroPontoFlutuante = 3.3;
- const numeroPontoFlutuanteSemZero = .5
+ const numeroPontoFlutuanteSemZero = .5;
+
+ const novaOperacao = primeiroNumero / numeroPontoFlutuante;
+
+ console.log (novaOperacao);
+
+  //NaN -> Not a Number (nao e número)
+
+const alura = "Alura";
+console.log (alura * primeiroNumero);
